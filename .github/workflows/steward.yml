@@ -1,0 +1,27 @@
+on:
+  schedule:
+    - cron: '0 0 * * 1,5' # every Monday and Friday
+  workflow_dispatch:
+
+name: Launch Scala Steward
+
+jobs:
+  scala-steward:
+    runs-on: ubuntu-latest
+    name: Scalameta Scala Steward
+    steps:
+      # Needed or else it won't find your repos file
+      - uses: actions/checkout@v3
+
+      - name: Launch Scala Steward
+        uses: scala-steward-org/scala-steward-action@v2
+        with:
+          github-token: ${{ secrets.SCALAMETA_BOT_GH_TOKEN }}
+          author-email: scalameta@gmail.com
+          author-name: Scalameta Bot
+          repos-file: repos.md
+          other-args: '--add-labels'
+      - uses: gautamkrishnar/keepalive-workflow@v1
+        with:
+          committer_username: Scalameta Bot
+          committer_email: scalameta@gmail.com
