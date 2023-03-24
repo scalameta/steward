@@ -1,3 +1,4 @@
+- scalameta/gradle-scala-seed.g8
 - scalameta/mdoc
 - scalameta/metabrowse
 - scalameta/metals
