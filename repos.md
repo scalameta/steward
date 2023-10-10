@@ -8,3 +8,4 @@
 - scalameta/sbt-scalafmt
 - scalameta/scalafmt
 - scalameta/scalameta
+- scalameta/gitpod-g8
