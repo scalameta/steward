@@ -11,7 +11,7 @@ jobs:
     name: Scalameta Scala Steward
     steps:
       # Needed or else it won't find your repos file
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Launch Scala Steward
         uses: scala-steward-org/scala-steward-action@v2
