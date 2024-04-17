@@ -21,7 +21,8 @@ jobs:
           author-name: Scalameta Bot
           repos-file: repos.md
           other-args: '--add-labels'
-      - uses: gautamkrishnar/keepalive-workflow@v1
+      - uses: gautamkrishnar/keepalive-workflow@v2
+        if: always()
         with:
           committer_username: Scalameta Bot
           committer_email: scalameta@gmail.com
