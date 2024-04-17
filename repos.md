@@ -9,3 +9,4 @@
 - scalameta/scalafmt
 - scalameta/scalameta
 - scalameta/gitpod-g8
+- scalameta/munit-scalacheck
