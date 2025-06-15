@@ -15,5 +15,5 @@ public [Steward instance](https://github.com/VirtusLab/scala-steward-repos).
 
 ## Learn More
 
-If you're unfamiliar with Scala Steward you can find out more
+If you're unfamiliar with Scala Steward you can find out more in
 [here](https://github.com/scala-steward-org/scala-steward).
