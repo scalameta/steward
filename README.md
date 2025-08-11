@@ -2,8 +2,7 @@
 
 Runs the
 [scala-steward-action](https://github.com/scala-steward-org/scala-steward-action)
-for the Scalameta repos. Pull requests are made by the
-[scalameta-bot](https://github.com/scalameta-bot).
+for the Scalameta repos. Pull requests are made by the [scalameta-bot](https://github.com/scalameta-bot).
 
 ## Adding a Repo
 
