@@ -12,3 +12,4 @@
 - scalameta/gitpod-g8
 - scalameta/munit-scalacheck
 - scalameta/metaconfig
+- VirtusLab/scala-cli
