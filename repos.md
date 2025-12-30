@@ -14,4 +14,4 @@
 - scalameta/metaconfig
 - VirtusLab/scala-cli
 - VirtusLab/scala-cli-signing
-- 
+  
