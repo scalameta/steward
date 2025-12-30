@@ -13,3 +13,5 @@
 - scalameta/munit-scalacheck
 - scalameta/metaconfig
 - VirtusLab/scala-cli
+- VirtusLab/scala-cli-signing
+- 
