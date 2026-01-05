@@ -6,7 +6,7 @@ for the Scalameta repos. Pull requests are made by the [scalameta-bot](https://g
 
 ## Adding a Repo
 
-Edit the [repos.md](./repos.md) file.
+Edit the [repos.md](./repos.md) file. 
 
 NOTE: This is only for projects within the
 [Scalameta](https://github.com/scalameta) org. For you own projects consider the
