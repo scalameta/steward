@@ -1,3 +1,5 @@
+Archived: Due to Github disabling repository code actions after 2 months.
+
 # Scalameta Steward
 
 Runs the
